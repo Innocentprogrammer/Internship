@@ -1,0 +1,80 @@
+.content .heading {
+  border-bottom: 1px solid gray;
+  margin: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.content .heading1 {
+  margin: 1.5rem;
+  padding: 1rem;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 2px gray;
+  font-size: 1.4rem;
+}
+
+.content .row {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  width: 90%;
+}
+
+.content .row .container .progress {
+  width: 60rem;
+}
+
+.content .row .container .progress table {
+  width: 60rem;
+}
+
+.content .row .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .row .col .TProject {
+  border: 1px solid gray;
+  width: 13rem;
+  padding: 0.8rem 0 1rem 1.6rem;
+  border-radius: 0.5rem;
+  margin: 1.5rem 0 1rem 0;
+  box-shadow: 2px 2px 2px gray;
+}
+.content .row .col .TTask {
+  border: 1px solid gray;
+  width: 13rem;
+  padding: 0.8rem 0 1rem 1.6rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0 1rem 0;
+  box-shadow: 2px 2px 2px gray;
+}
+
+.container {
+  border-top: 2px solid green;
+  border-right: 2px solid gray;
+  margin: 1.5rem;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: -2px 2px 2px gray;
+  font-size: 1.3em;
+}
+
+.container .heading {
+  border-bottom: 1px solid gray;
+  margin: 0.5rem 0 1.5rem 0.1rem;
+  padding-bottom: 1rem;
+}
+.container .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0 5px 0;
+}
+
+.container .table {
+  margin: 5px 0 5px 0;
+  width: 100%;
+}

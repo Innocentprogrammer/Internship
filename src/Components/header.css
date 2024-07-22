@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+}
+
+.sideBar {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(14, 4, 196),
+    rgb(255, 0, 0, 0)
+  );
+  width: 15vw;
+  min-height: 100vh;
+}
+
+.sideBar .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh;
+  font-size: 1.5vw;
+  color: white;
+  font-weight: 900;
+  border-bottom: 1px solid black;
+}
+
+.sideBar .logo img {
+  width: 10vw;
+  border-radius: 50%;
+}
+
+.sideBar .menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.sideBar .menu ul {
+  list-style-type: none;
+}
+
+.sideBar .menu ul li {
+  padding: 0.7rem 0 0.7rem 1rem;
+  border-bottom: 1px solid black;
+  font-size: 1.5vw;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+.sideBar .menu ul li a {
+  text-decoration: none;
+  color: rgb(92, 47, 47);
+}
+
+.Login {
+  margin: 1em;
+}
+
+.navBar {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(14, 4, 196),
+    rgba(255, 0, 0, 0)
+  );
+  width: 82.9vw;
+  height: 10vh;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: 2rem;
+  padding: 0 2rem 0 0;
+  color: black;
+  font-weight: 1000;
+}
+.navBar .avtar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh;
+  font-size: 1.5vw;
+  color: white;
+  font-weight: 900;
+}
+.navBar .avtar img {
+  width: 3vw;
+}
