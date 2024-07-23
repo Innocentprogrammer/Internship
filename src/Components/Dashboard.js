@@ -1,5 +1,6 @@
 import React from "react";
 import "./dashboard.css";
+import { assets } from "../assest/assest";
 
 const Dashboard = (props) => {
   return (
@@ -30,19 +31,23 @@ const Dashboard = (props) => {
             </div>
           </div>
           <div className="col">
-            <div>
-              <div className="TProject">
+            <div className="TProject">
+              <div>
                 <h2>1</h2>
                 <h4>Total Project</h4>
               </div>
-              <div>{/* <img></img> */}</div>
+              <div className="img1">
+                <img src={assets.layer} alt=""></img>
+              </div>
             </div>
             <div className="TTask">
               <div>
                 <h2>6</h2>
                 <h4>Total Task</h4>
               </div>
-              <div>{/* <img></img> */}</div>
+              <div className="img2">
+                <img src={assets.planning} alt=""></img>
+              </div>
             </div>
           </div>
         </div>

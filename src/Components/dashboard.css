@@ -42,7 +42,17 @@
   border-radius: 0.5rem;
   margin: 1.5rem 0 1rem 0;
   box-shadow: 2px 2px 2px gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.content .row .col .TProject .img1 img {
+  width: 3rem;
+  filter: blur(0.8px);
+  padding: 0 1rem 0 0;
+}
+
 .content .row .col .TTask {
   border: 1px solid gray;
   width: 13rem;
@@ -50,6 +60,15 @@
   border-radius: 0.5rem;
   margin: 1rem 0 1rem 0;
   box-shadow: 2px 2px 2px gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content .row .col .TTask .img2 img {
+  width: 4rem;
+  filter: blur(0.8px);
+  padding: 0 1rem 0 0;
 }
 
 .container {
